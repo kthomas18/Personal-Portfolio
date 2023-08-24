@@ -2,6 +2,7 @@ import React from 'react'
 import Laptop from '../Assests/Laptop.jpg'
 import download from '../Assests/download.jpg'
 import myweb from '../Assests/myweb.png'
+import weather from '../Assests/weather.png'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -34,7 +35,7 @@ const Projects = () => {
             showDots={true}
             responsive1={responsive}> 
             <div className='w-full shadow-xl bg-slate-100 flex flex-col p-10 my-7 rounded-lg hover:scale-105 duration-300'>
-                <img className='w-60 mx-auto mt-[-3rem] bg-white'src={myweb} alt="" />
+                <img className='w-25 mx-auto mt-[-3rem] bg-white'src={myweb} alt="" />
                 <h2 className='text-4xl font-bold text-center py-8'>Personal Website</h2>
                 <button className='bg-[#00df9a] w-full rounded-md font-medium my-6 mx-auto py-3 text-black'>Live Demo</button>
             </div>
@@ -44,12 +45,12 @@ const Projects = () => {
                 <button className='bg-[#00df9a] w-full rounded-md font-medium my-6 mx-auto py-3 text-black'>Live Demo</button>
             </div>
             <div className='w-full shadow-xl bg-slate-100 flex flex-col p-10 my-7 rounded-lg hover:scale-105 duration-300'>
-                <img className='w-40 mx-auto mt-[-3rem] bg-white'src={Laptop} alt="" />
+                <img className='w-25 mx-auto mt-[-3rem] bg-white'src={Laptop} alt="" />
                 <h2 className='text-4xl font-bold text-center py-8'>Ticket-Selling Website</h2>
                 <button className='bg-[#00df9a] w-full rounded-md font-medium my-6 mx-auto py-3 text-black'>Live Demo</button>
             </div>
             <div className='w-full shadow-xl bg-slate-100 flex flex-col p-10 my-7 rounded-lg hover:scale-105 duration-300'>
-                <img className='w-60 mx-auto mt-[-3rem] bg-white'src={myweb} alt="" />
+                <img className='w-10 mx-auto mt-[-3rem] bg-white'src={weather} alt="" />
                 <h2 className='text-4xl font-bold text-center py-8'>Executable Weather Map</h2>
                 <button className='bg-[#00df9a] w-full rounded-md font-medium my-6 mx-auto py-3 text-black'>Live Demo</button>
             </div>
