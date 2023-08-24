@@ -30,29 +30,28 @@ const Projects = () => {
     <div className='w-full py-[10rem] px-4 bg-white'>
         <div className='max-w-screen-xl mx-auto md:grid-cols-3 gap-8'>
             <Carousel responsive={responsive}
-            swipeable={false}
-            draggable={false}
-            showDots={true}
-            responsive1={responsive}> 
+            swipeable={true}
+            draggable={true}
+            showDots={true}> 
             <div className='w-full shadow-xl bg-slate-100 flex flex-col p-10 my-7 rounded-lg hover:scale-105 duration-300'>
-                <img className='w-25 mx-auto mt-[-3rem] bg-white'src={myweb} alt="" />
+                <img className='w-32 h-32 mx-auto mt-[-3rem] bg-white'src={myweb} alt="" />
                 <h2 className='text-4xl font-bold text-center py-8'>Personal Website</h2>
-                <button className='bg-[#00df9a] w-full rounded-md font-medium my-6 mx-auto py-3 text-black'>Live Demo</button>
+                <button className='bg-[#00df9a] w-full rounded-md font-medium my-6 mx-auto py-3 text-black' title='Click to see live demo' >Live Demo</button>
             </div>
             <div className='w-full shadow-xl bg-slate-100 flex flex-col p-10 my-7 rounded-lg hover:scale-105 duration-300'>
-                <img className='w-25 mx-auto mt-[-3rem] bg-white'src={download} alt="" />
+                <img className='w-32 h-32 mx-auto mt-[-3rem] bg-white'src={download} alt="" />
                 <h2 className='text-4xl font-bold text-center py-8'>AI Checkerboard Game</h2>
-                <button className='bg-[#00df9a] w-full rounded-md font-medium my-6 mx-auto py-3 text-black'>Live Demo</button>
+                <button className='bg-[#00df9a] w-full rounded-md font-medium my-6 mx-auto py-3 text-black' title='Click to see live demo'>Live Demo</button>
             </div>
             <div className='w-full shadow-xl bg-slate-100 flex flex-col p-10 my-7 rounded-lg hover:scale-105 duration-300'>
-                <img className='w-25 mx-auto mt-[-3rem] bg-white'src={Laptop} alt="" />
+                <img className='w-32 h-32 mx-auto mt-[-3rem] bg-white'src={Laptop} alt="" />
                 <h2 className='text-4xl font-bold text-center py-8'>Ticket-Selling Website</h2>
-                <button className='bg-[#00df9a] w-full rounded-md font-medium my-6 mx-auto py-3 text-black'>Live Demo</button>
+                <button className='bg-[#00df9a] w-full rounded-md font-medium my-6 mx-auto py-3 text-black' title='Click to see live demo'>Live Demo</button>
             </div>
             <div className='w-full shadow-xl bg-slate-100 flex flex-col p-10 my-7 rounded-lg hover:scale-105 duration-300'>
-                <img className='w-10 mx-auto mt-[-3rem] bg-white'src={weather} alt="" />
+                <img className='w-32 h-32 mx-auto mt-[-3rem] bg-white'src={weather} alt="" />
                 <h2 className='text-4xl font-bold text-center py-8'>Executable Weather Map</h2>
-                <button className='bg-[#00df9a] w-full rounded-md font-medium my-6 mx-auto py-3 text-black'>Live Demo</button>
+                <button className='bg-[#00df9a] w-full rounded-md font-medium my-6 mx-auto py-3 text-black' title='Click to see live demo'>Live Demo</button>
             </div>
             </Carousel>
         </div>
