@@ -53,7 +53,6 @@ const Projects = () => {
                 <h2 className='text-4xl font-bold text-center py-8'>Executable Weather Map</h2>
                 <button className='bg-[#00df9a] w-full rounded-md font-medium my-6 mx-auto py-3 text-black' title='Click to see live demo'>Live Demo</button>
             </div>
-            
             </Carousel>
         </div>
     </div>
