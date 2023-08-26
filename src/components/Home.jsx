@@ -9,9 +9,6 @@ const Home = () => {
                 <p className='md:text-4xl sm:text-1xl text-xl py-4'>
                     I am a sophmore studying computer science at Stanford University
                 </p>
-                <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>
-                    Get Started
-                </button>
             </div>
         </div>
     </div>
