@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 import { Link } from 'react-router-dom'
+import logo from '../Assests/logo.png'
+import icon from '../Assests/icon.png'
 
 const Navbar = () => {
 const [nav, setNav] = useState(false)
@@ -10,7 +12,8 @@ const handleNav = () => {
 }
 
   return (
-    <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
+    <div className='flex justify-between items-center h-24 max-w-[1400px] mx-auto px-4 text-white'>
+        <img className='mx-[-10]' src={logo} alt="" />
         <ul className='hidden md:flex'>
             <li className='p-4'> 
                 <Link to='/'>Home</Link>
