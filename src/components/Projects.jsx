@@ -42,8 +42,8 @@ const Projects = () => {
             </div>
             <div className='w-full shadow-xl bg-slate-100 flex flex-col p-10 my-7 rounded-lg hover:scale-105 duration-300'>
                 <img className='w-32 h-32 mx-auto mt-[-3rem] bg-white'src={download} alt="" />
-                <h2 className='text-4xl font-bold text-center py-8'>AI Checkerboard Game</h2>
-                <button className='bg-[#00df9a] w-full rounded-md font-medium my-6 mx-auto py-3 text-black blur-sm' title='Click to see live demo'>Live Demo</button>
+                <h2 className='text-4xl font-bold text-center py-8'>AI Tic-Tac-Toe Game</h2>
+                <button className='bg-[#00df9a] w-full rounded-md font-medium my-6 mx-auto py-3 text-black' title='Click to see live demo'>Live Demo</button>
             </div>
             <div className='w-full shadow-xl bg-slate-100 flex flex-col p-10 my-7 rounded-lg hover:scale-105 duration-300'>
                 <img className='w-32 h-32 mx-auto mt-[-3rem] bg-white'src={weather} alt="" />
